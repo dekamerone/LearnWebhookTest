@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'f164c884-fc0f-45fc-b61d-563901a629cf'
   imageRepository: 'tiottest20211117'
   containerRegistry: 'michaelpfannkuchen.azurecr.io'
-  dockerfilePath: 'https://github.com/dekamerone/LearnWebhookTest/blob/676b5b6aa30f6f408dbef7c4c3a042dbc032d073/app/Dockerfile'
+  dockerfilePath: '/app/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
