@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'f164c884-fc0f-45fc-b61d-563901a629cf'
   imageRepository: 'tiottest20211117'
   containerRegistry: 'michaelpfannkuchen.azurecr.io'
-  dockerfilePath: '/app/Dockerfile'
+  dockerfilePath: 'app/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
